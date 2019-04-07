@@ -5,7 +5,7 @@ With this arduino code you will be able to receive data from ArduControl App.
 The application sends 3 values: x and y coordinates for the joystick and a boolean for the button.
 The example turns x and y coordinates into 4 global variables wich can be used in your code. (Up, Down, Left, Right) and also gets a 1 for button pressed and a 0 for Button release.
 
-
+![Joystick_s](https://user-images.githubusercontent.com/19899398/55690766-54bbca80-595b-11e9-9485-1c2a4388f982.jpg)
 
 # Note
 
