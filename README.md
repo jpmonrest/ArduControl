@@ -9,4 +9,15 @@ The example turns x and y coordinates into 4 global variables wich can be used i
 
 # Note
 
-In the example the HC-06 Module is connected to TX1,RX1 (Serial1) if you want to change Serial Port you will have to change the pins connection and start the Serial port where you connected the module. Example: Serial2.begin() Pins 16-17.
+In the example the HC-05 Module is connected to TX1,RX1 (Serial1) if you want to change Serial Port you will have to change the pins connection and start the Serial port where you connected the module. Example: Serial2.begin() Pins 16-17.
+
+# Important
+
+Try to avoid using TX0, RX0 because those pins are used for uploading code to Arduino and you will have to disconnect your Bluetooth module everytime you upload your code.
+
+# Connection HC-05 - Arduino
+
+VCC - 5V
+GND - GND
+TX - RX
+RX - TX
