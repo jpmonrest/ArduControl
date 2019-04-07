@@ -17,7 +17,7 @@ Try to avoid using TX0, RX0 because those pins are used for uploading code to Ar
 
 # Connection HC-05 - Arduino
 
-VCC - 5V
+VCC - 5V/n
 GND - GND
 TX - RX
 RX - TX
